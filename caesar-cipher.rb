@@ -1,4 +1,4 @@
-#require ''
+require 'pry-byebug'
 
 def caeser_cipher(string, shift_factor)
   # convert string to an array of characters
@@ -12,6 +12,7 @@ def caeser_cipher(string, shift_factor)
   end
 
   cipher_array = []
+  
   # loop through integer array convert to character
   integer_array.each do |integer| 
     cipher_array.push << integer.chr
@@ -19,4 +20,4 @@ def caeser_cipher(string, shift_factor)
   return cipher_array.join
 end
 
-p caeser_cipher("cat on mat",1)
+p caeser_cipher("Cat",1)
