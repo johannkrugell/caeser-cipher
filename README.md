@@ -1,5 +1,4 @@
-README
-This Ruby program is part of a project for the Odin Porject fullstack developer
+This Ruby program is part of a project for the Odin Project Fullstack Developer
 course. The project goal is develop a Caeser Cipher, see Wikipedia
 https://en.wikipedia.org/wiki/Caesar_cipher
 
